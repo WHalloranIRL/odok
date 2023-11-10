@@ -182,3 +182,23 @@ textarea {
   padding: 10px;
   width: 100%;
 }
+
+/* Footer Styles */
+
+footer {
+  padding: 5px;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--fourthcolor);
+}
