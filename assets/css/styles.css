@@ -135,6 +135,9 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 8px;
   margin-bottom: 5px;
+  max-width: 500px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .hero .secondary-text {
@@ -200,6 +203,7 @@ nav {
   padding: 20px;
   /* border: 2px solid hotpink; */
   overflow-wrap: break-word;
+  justify-content: center;
 }
 
 .contact-form {
