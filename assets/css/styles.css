@@ -145,3 +145,13 @@ nav {
   width: fit-content;
 }
 
+/* About Us Styles */
+
+#about {
+  padding: 20px;
+  background: var(--primarycolor);
+}
+
+.about {
+  max-width: 80%;
+}
