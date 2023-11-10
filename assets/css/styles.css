@@ -1,0 +1,77 @@
+/* Fonts Imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Variables to make changes easier */
+:root {
+  --primarycolor: #18280d;
+  --secondary-color: #7c3626;
+  --thirdcolor: #f5853f;
+  --fourthcolor: #f7f3e3;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* General and Utility Styles - Should not change */
+body {
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  background-color: var(--thirdcolor);
+  border: 2px solid var(--secondary-color);
+  color: var(--fourthcolor);
+  padding: 6px 16px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: var(--thirdcolor);
+  color: var(--fourthcolor);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--fourthcolor);
+}
+
+p,
+li,
+a,
+label {
+  color: var(--fourthcolor);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo-image {
+  width: 70px;
+  height: auto;
+  padding: 5px 0px;
+}
