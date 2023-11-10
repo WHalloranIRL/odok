@@ -30,6 +30,13 @@ body {
   background-color: var(--secondary-color);
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  color: var(--fourthcolor);
+}
+
+.container-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 100vw;
 }
 
 .button {
@@ -74,4 +81,41 @@ a {
   width: 70px;
   height: auto;
   padding: 5px 0px;
+}
+
+/* Site Nav Style */
+
+header {
+  background-color: var(--primarycolor);
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  position: relative;
+  background-color: var(--primarycolor);
+  width: 100%;
+  left: 0;
+  padding: 5px;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
+
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
 }
