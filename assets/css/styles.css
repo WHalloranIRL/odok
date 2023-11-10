@@ -95,7 +95,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid hotpink;
 }
 
 nav {
@@ -119,3 +118,36 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
+
+/* Hero Section Style */
+
+#hero {
+    background: url("../images/burger.jpg") center / cover;
+    /* height: 70vh; */
+    padding: 10px;
+  }
+  
+  /* .hero {
+    display: grid;
+    position: relative;
+    top: 100px;
+  } */
+  
+  .hero .leading-text {
+    font-size: 200%;
+    /* grid-column: 1/2;
+    justify-content: center; */
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .hero .secondary-text {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .hero .button {
+    width: fit-content;
+  }
