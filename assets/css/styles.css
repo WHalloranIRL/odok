@@ -88,7 +88,7 @@ a {
 
 header {
   background-color: var(--primarycolor);
-  padding: 0 1rem;
+  padding: 0 2rem;
   position: sticky;
   top: 0;
   z-index: 99;
