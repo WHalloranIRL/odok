@@ -152,6 +152,20 @@ nav {
   background: var(--primarycolor);
 }
 
-.about {
-  max-width: 80%;
+/* Contact Form Styles */
+
+#contact {
+  background: var(--primarycolor);
+  color: var(--fourthcolor);
+  padding: 20px;
+  border: 2px solid hotpink;
+}
+
+.text-input,
+.input,
+textarea {
+  background-color: var(--fourthcolor);
+  color: var(--primarycolor);
+  border-radius: 5px;
+  padding: 10px;
 }
