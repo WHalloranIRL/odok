@@ -95,6 +95,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid var(--thirdcolor);
 }
 
 nav {
@@ -102,7 +103,8 @@ nav {
   background-color: var(--primarycolor);
   width: 100%;
   padding: 5px;
-  box-shadow: 0 2px 2px #3a3a3a;
+  left: 0;
+  box-shadow: 0 2px 2px var(--thirdcolor);
   display: none;
   top: 100%;
 }
@@ -122,32 +124,24 @@ nav {
 /* Hero Section Style */
 
 #hero {
-    background: url("../images/burger.jpg") center / cover;
-    /* height: 70vh; */
-    padding: 10px;
-  }
-  
-  /* .hero {
-    display: grid;
-    position: relative;
-    top: 100px;
-  } */
-  
-  .hero .leading-text {
-    font-size: 200%;
-    /* grid-column: 1/2;
-    justify-content: center; */
-    margin-top: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 8px;
-    margin-bottom: 5px;
-  }
-  
-  .hero .secondary-text {
-    padding-top: 5px;
-    padding-bottom: 10px;
-  }
-  
-  .hero .button {
-    width: fit-content;
-  }
+  background: url("../images/burger.jpg") center / cover;
+  padding: 10px;
+}
+
+.hero .leading-text {
+  font-size: 200%;
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.hero .secondary-text {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.hero .button {
+  width: fit-content;
+}
+
