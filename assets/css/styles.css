@@ -154,24 +154,31 @@ nav {
   background-image: url("../images/service-bg.webp");
   background-size: cover;
 }
+.services-image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .services {
   display: flex;
   flex-wrap: wrap;
-  flex: 0 1 100px;
-  justify-content: center;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
   /* border: 2px solid hotpink; */
   text-align: center;
   background-color: var(--primarycolor);
   box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.2);
+  padding: 10px 0px;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .services img {
-  width: 100%;
-  max-width: 600px;
-  max-height: 500px;
+  width: 250px;
+  height: 300px;
   object-fit: cover;
   border-radius: 5px;
   border: 1px solid white;
@@ -233,4 +240,11 @@ footer {
   font-size: 160%;
   padding: 5%;
   color: var(--fourthcolor);
+}
+
+/* iFram for Maps Styles */
+
+.iframe-container {
+  align-content: center;
+  max-width: 100%;
 }
