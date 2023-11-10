@@ -146,6 +146,38 @@ nav {
   width: fit-content;
 }
 
+/* Services Styles */
+
+#services {
+  color: var(--fourthcolor);
+  padding: 20px;
+  background-image: url("../images/service-bg.webp");
+  background-size: cover;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 2px solid hotpink; */
+  text-align: center;
+  background-color: var(--primarycolor);
+  box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.2);
+}
+
+.services img {
+  width: 100%;
+  max-width: 600px;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.2);
+}
+
 /* About Us Styles */
 
 #about {
@@ -159,12 +191,12 @@ nav {
   background: var(--primarycolor);
   color: var(--fourthcolor);
   padding: 20px;
-  border: 2px solid hotpink;
+  /* border: 2px solid hotpink; */
   overflow-wrap: break-word;
 }
 
 .contact-form {
-  border: 2px solid hotpink;
+  /* border: 2px solid hotpink; */
   padding: 5px;
   max-width: 500px;
 }
