@@ -33,11 +33,11 @@ body {
   color: var(--fourthcolor);
 }
 
-.container-grid {
+/* .container-grid {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 100vw;
-}
+} */
 
 .button {
   background-color: var(--thirdcolor);
@@ -95,13 +95,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid hotpink;
 }
 
 nav {
-  position: relative;
+  position: absolute;
   background-color: var(--primarycolor);
   width: 100%;
-  left: 0;
   padding: 5px;
   box-shadow: 0 2px 2px #3a3a3a;
   display: none;
