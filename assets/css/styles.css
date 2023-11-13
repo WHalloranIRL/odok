@@ -26,7 +26,8 @@ li {
 }
 
 #menu li:hover {
-  background-color: #f5853f;
+  background-color: var(--thirdcolor);
+  border-top-right-radius: 20px;
 }
 
 /* General and Utility Styles - Should not change */
