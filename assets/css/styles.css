@@ -262,6 +262,32 @@ footer {
 /* Media Queries */
 
 @media (min-width: 768px) {
+  /* Nav Bar Styles */
+
+  h1.hidden {
+    display: block;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid hotpink; */
+    margin-right: 30px;
+  }
+
+  nav li {
+    padding-left: 10px;
+    margin-left: 2px;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
   /* Contact Us Styles */
 
   #contact {
