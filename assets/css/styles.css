@@ -300,10 +300,6 @@ footer {
   .contact-info {
     align-self: flex-start;
   }
-  /* } */
-
-  /* @media (min-width: 1024px) { */
-  /* About Us Responsive Styles */
 
   .about {
     display: flex;
