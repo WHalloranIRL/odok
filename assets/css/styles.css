@@ -293,6 +293,12 @@ footer {
 
   .contact-info {
     align-self: flex-start;
+    flex-basis: 30%;
+  }
+
+  .contact-form {
+    max-width: 60%;
+    flex-grow: 1;
   }
 
   .about {
