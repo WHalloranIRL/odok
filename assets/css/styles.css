@@ -45,7 +45,7 @@ body {
 }
 
 .button:hover {
-  background-color: var(--thirdcolor);
+  background-color: var(--primarycolor);
   color: var(--fourthcolor);
 }
 
