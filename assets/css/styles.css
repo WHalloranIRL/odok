@@ -195,6 +195,10 @@ nav {
   background: var(--primarycolor);
 }
 
+.about-img {
+  display: none;
+}
+
 /* Contact Form Styles */
 
 #contact {
@@ -253,6 +257,42 @@ footer {
   max-width: 100%;
 }
 
-
 /* Media Queries */
 
+@media (min-width: 1100px) {
+  
+  /* About Us Responsive Styles */
+  
+  #about {
+    align-items: center;
+  }
+
+  .about {
+    width: 80%;
+    border: 2px solid red;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+
+  .about > * {
+    flex: 1;
+  }
+
+  p {
+    font-size: 120%;
+  }
+
+  .about-img {
+    display: block;
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+  }
+
+  .about img {
+    width: 100%;
+  }
+}
