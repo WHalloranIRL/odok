@@ -203,13 +203,17 @@ nav {
   padding: 20px;
   /* border: 2px solid hotpink; */
   overflow-wrap: break-word;
+
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-form {
   /* border: 2px solid hotpink; */
   padding: 5px;
-  max-width: 500px;
+  width: 100%;
 }
 
 .contact-form .button {
@@ -286,6 +290,7 @@ footer {
 
   #contact {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -301,11 +306,12 @@ footer {
     flex-grow: 1;
   }
 
+  /* About Styles */
+
   .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
     gap: 20px;
   }
 
