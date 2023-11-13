@@ -259,20 +259,32 @@ footer {
 
 /* Media Queries */
 
-@media (min-width: 1100px) {
-  
-  /* About Us Responsive Styles */
-  
-  #about {
+@media (min-width: 768px) {
+  /* Contact Us Styles */
+
+  #contact {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 
-  .about {
-    width: 80%;
-    border: 2px solid red;
-    margin: 0 10%;
+  .contact-info {
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* About Us Responsive Styles */
+  /* 
+  #about {
     display: flex;
-    justify-content: space-evenly;
+  } */
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row-reverse;
     gap: 20px;
   }
@@ -287,7 +299,7 @@ footer {
 
   .about-img {
     display: block;
-    max-width: 100%;
+    max-width: 500px;
     min-width: 200px;
     height: auto;
   }
