@@ -157,6 +157,7 @@ nav {
   background-image: url("../images/service-bg.webp");
   background-size: cover;
 }
+
 .services-image-container {
   display: flex;
   justify-content: space-evenly;
@@ -165,18 +166,19 @@ nav {
 .services {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 600px;
+  flex: 0 1 800px;
   justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
   /* border: 2px solid hotpink; */
   text-align: center;
   background-color: var(--primarycolor);
-  box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.2);
-  padding: 10px 0px;
+  box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.5);
+  padding: 30px 0px;
   max-width: 100%;
   width: 100%;
   overflow: hidden;
+  border-radius: 3%;
 }
 
 .services img {
@@ -272,14 +274,10 @@ footer {
   .contact-info {
     align-self: flex-start;
   }
-}
+  /* } */
 
-@media (min-width: 1024px) {
+  /* @media (min-width: 1024px) { */
   /* About Us Responsive Styles */
-  /* 
-  #about {
-    display: flex;
-  } */
 
   .about {
     display: flex;
@@ -294,17 +292,22 @@ footer {
   }
 
   p {
-    font-size: 120%;
+    font-size: 110%;
+  }
+
+  .leading-text {
+    align-self: flex-start;
   }
 
   .about-img {
     display: block;
-    max-width: 500px;
     min-width: 200px;
+    max-width: 500px;
     height: auto;
   }
 
   .about img {
     width: 100%;
+    border-radius: 10%;
   }
 }
