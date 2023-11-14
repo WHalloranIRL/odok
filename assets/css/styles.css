@@ -322,8 +322,8 @@ footer {
   }
 
   .contact-form {
-    max-width: 60%;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    max-width: 40%;
   }
 
   /* About Styles */
