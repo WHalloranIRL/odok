@@ -329,30 +329,40 @@ footer {
   /* About Styles */
 
   .about {
-    width: 80%;
     display: flex;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
-    /* flex: 1 1 auto; */
     gap: 20px;
   }
-  
+
+  #about h2 {
+    margin-left: 13%;
+    font-size: 2em;
+  }
+
+  .about-text-container {
+    display: flex;
+    flex-basis: 300px;
+    flex: 1;
+    max-width: 40vw;
+  }
+
   .leading-text {
-    font-size: 110%;
+    font-size: 1.5vw;
     align-self: flex-start;
   }
 
   .about-img {
-    display: block;
+    display: flex;
+    max-width: 30vw;
+    min-width: 10vw;
   }
-
   .about img {
     width: 100%;
-    height: 100%;
     border-radius: 5%;
     object-fit: cover;
     object-position: top;
+    overflow: hidden;
   }
 }
 
