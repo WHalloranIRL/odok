@@ -328,36 +328,27 @@ footer {
 
   /* About Styles */
 
-  .about {
+  .about-container {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
+    margin: auto;
     gap: 20px;
-  }
-
-  #about h2 {
-    margin-left: 13%;
-    font-size: 2em;
-  }
-
-  .about-text-container {
-    display: flex;
-    flex-basis: 300px;
-    flex: 1;
-    max-width: 40vw;
+    width: 80%;
   }
 
   .leading-text {
-    font-size: 1.5vw;
+    font-size: max(1rem, 1.5vw);
     align-self: flex-start;
+    flex: 1;
   }
 
   .about-img {
     display: flex;
-    max-width: 30vw;
-    min-width: 10vw;
+    flex-basis: 50%;
+    flex: 1;
   }
-  .about img {
+
+  .about-img img {
     width: 100%;
     border-radius: 5%;
     object-fit: cover;
