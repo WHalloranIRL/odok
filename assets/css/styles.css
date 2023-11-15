@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* font-family: 'Lato', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif; */
 
 /* Variables to make changes easier */
 :root {
@@ -19,6 +19,11 @@ font-family: 'Poppins', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 
 li {
@@ -67,10 +72,10 @@ h2 {
   position: relative;
 }
 
-h2 span {
-  position: absolute;
-  top: -130px;
-}
+/* h2 span {
+    position: absolute;
+    top: -130px;
+  } */
 
 p,
 li,
@@ -272,6 +277,7 @@ footer {
 .iframe-container {
   align-content: center;
   max-width: 100%;
+  height: 100vh;
 }
 
 /* Media Queries */
@@ -345,32 +351,40 @@ footer {
     justify-content: center;
     margin: auto;
     gap: 20px;
-    width: 80%;
+    height: 100vh;
+    max-width: 1200px;
   }
 
   .leading-text {
     font-size: max(1rem, 1.5vw);
-    align-self: flex-start;
     flex: 1;
   }
 
   .about-img {
     display: flex;
     flex-basis: 50%;
-    flex: 1;
+    overflow: hidden; /* Add overflow: hidden to prevent image overflow */
   }
 
   .about-img img {
     width: 100%;
+    height: 95%; /* Ensure the image takes up the full height of the container */
     border-radius: 5%;
     object-fit: cover;
     object-position: top;
-    overflow: hidden;
   }
 }
 
 @media screen and (min-width: 1200px) {
   /* Services Styles */
+
+  footer {
+    height: 4rem;
+    background-color: #f5853f;
+  }
+  section {
+    height: 100vh;
+  }
 
   .services {
     display: flex;
