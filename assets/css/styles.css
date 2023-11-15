@@ -338,8 +338,8 @@ footer {
   }
 
   .contact-form {
-    /* flex-grow: 1; */
     max-width: 40%;
+    align-self: flex-start;
   }
 }
 
