@@ -8,10 +8,10 @@
 
 /* Variables to make changes easier */
 :root {
-  --primarycolor: #18280d;
+  --primary-color: #18280d;
   --secondary-color: #7c3626;
-  --thirdcolor: #f5853f;
-  --fourthcolor: #f7f3e3;
+  --accent-primary-color: #f5853f;
+  --accent-secondary-color: #f7f3e3;
 }
 
 /* Resets */
@@ -31,7 +31,7 @@ li {
 }
 
 #menu li:hover {
-  background-color: var(--thirdcolor);
+  background-color: var(--accent-primary-color);
   border-top-right-radius: 20px;
 }
 
@@ -40,13 +40,13 @@ body {
   background-color: var(--secondary-color);
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
 }
 
 .button {
-  background-color: var(--thirdcolor);
+  background-color: var(--accent-primary-color);
   border: 2px solid var(--secondary-color);
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
   padding: 6px 16px;
   text-transform: uppercase;
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
@@ -56,8 +56,8 @@ body {
 }
 
 .button:hover {
-  background-color: var(--primarycolor);
-  color: var(--fourthcolor);
+  background-color: var(--primary-color);
+  color: var(--accent-secondary-color);
   transition: 0.5s;
 }
 
@@ -65,7 +65,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
 }
 
 h2 {
@@ -81,7 +81,7 @@ p,
 li,
 a,
 label {
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
   font-weight: 300;
 }
 
@@ -103,7 +103,7 @@ a {
 /* Site Nav Style */
 
 header {
-  background-color: var(--primarycolor);
+  background-color: var(--primary-color);
   padding: 0 2rem;
   position: sticky;
   top: 0;
@@ -112,16 +112,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--thirdcolor);
+  border-bottom: 2px solid var(--accent-primary-color);
 }
 
 nav {
   position: absolute;
-  background-color: var(--primarycolor);
+  background-color: var(--primary-color);
   width: 100%;
   padding: 5px;
   left: 0;
-  box-shadow: 0 2px 2px var(--thirdcolor);
+  box-shadow: 0 2px 2px var(--accent-primary-color);
   display: none;
   top: 100%;
 }
@@ -146,7 +146,7 @@ nav {
 }
 
 .hero .leading-text {
-  font-size: 200%;
+  font-size: 1rem;
   margin-top: 200px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 8px;
@@ -168,7 +168,7 @@ nav {
 /* Services Styles */
 
 #services {
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
   padding: 20px;
   background-image: url("../images/service-bg.webp");
   background-size: cover;
@@ -188,7 +188,7 @@ nav {
   gap: 20px;
   /* border: 2px solid hotpink; */
   text-align: center;
-  background-color: var(--primarycolor);
+  background-color: var(--primary-color);
   box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.5);
   padding: 30px 0px;
   max-width: 100%;
@@ -210,7 +210,7 @@ nav {
 
 #about {
   padding: 20px;
-  background: var(--primarycolor);
+  background: var(--primary-color);
 }
 
 .about-img {
@@ -220,8 +220,8 @@ nav {
 /* Contact Form Styles */
 
 #contact {
-  background: var(--primarycolor);
-  color: var(--fourthcolor);
+  background: var(--primary-color);
+  color: var(--accent-secondary-color);
   padding: 20px;
   /* border: 2px solid hotpink; */
   overflow-wrap: break-word;
@@ -245,8 +245,8 @@ nav {
 .text-input,
 .input,
 textarea {
-  background-color: var(--fourthcolor);
-  color: var(--primarycolor);
+  background-color: var(--accent-secondary-color);
+  color: var(--primary-color);
   border-radius: 5px;
   padding: 10px;
   width: 100%;
@@ -267,9 +267,9 @@ footer {
 }
 
 #social-networks i {
-  font-size: 160%;
+  font-size: 2rem;
   padding: 5%;
-  color: var(--fourthcolor);
+  color: var(--accent-secondary-color);
 }
 
 /* iFram for Maps Styles */
@@ -283,6 +283,9 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
+  .hero .leading-text {
+    font-size: 4rem;
+  }
   /* Logo Style */
 
   .logo-image {
@@ -376,12 +379,13 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+  .hero .leading-text {
+    font-size: 5rem;
+    max-width: 800px;
+    margin-top: 250px;
+  }
   /* Services Styles */
 
-  footer {
-    height: 4rem;
-    background-color: #f5853f;
-  }
   section {
     height: 100vh;
   }
