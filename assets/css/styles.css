@@ -63,6 +63,15 @@ h4 {
   color: var(--fourthcolor);
 }
 
+h2 {
+  position: relative;
+}
+
+h2 span {
+  position: absolute;
+  top: -130px;
+}
+
 p,
 li,
 a,
