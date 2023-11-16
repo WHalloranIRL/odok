@@ -67,11 +67,6 @@ h2 {
   position: relative;
 }
 
-/* h2 span {
-    position: absolute;
-    top: -130px;
-  } */
-
 p,
 li,
 a,
@@ -164,37 +159,52 @@ nav {
 
 #services {
   color: var(--accent-secondary-color);
-  padding: 20px;
-  background-image: url("../images/service-bg.webp");
-  background-size: cover;
-}
-
-.services-image-container {
+  padding: 20px 0;
   display: flex;
-  justify-content: space-evenly;
-}
-
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 0 1 700px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
-  /* border: 2px solid hotpink; */
-  text-align: center;
-  background-color: var(--primary-color);
-  box-shadow: 0px 6px 8px -2px rgba(255, 255, 255, 0.5);
-  padding: 30px 0px;
-  max-width: 100%;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
+  background-image: url(../images/service-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.services img {
-  width: 250px;
-  height: 300px;
+.services-container {
+  background-color: var(--primary-color);
+  border-radius: 1em;
+  padding: 1em 0.5em;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.services-container p {
+  font-size: 1em;
+}
+
+.services-container div {
+  padding: 1.5em;
+  border-bottom: 1px solid var(--accent-primary-color);
+}
+
+.services-container div:last-child {
+  border: none;
+}
+
+.services-container img {
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 5px;
   border: 1px solid white;
@@ -272,7 +282,6 @@ footer {
 .iframe-container {
   align-content: center;
   max-width: 100%;
-  height: 100vh;
 }
 
 /* Media Queries */
@@ -339,6 +348,24 @@ footer {
     max-width: 40%;
     align-self: flex-start;
   }
+
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .services-container div {
+    padding: 1.5em;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+  }
+
+  .services-container div:last-child {
+    border-bottom: 1px solid var(--accent-primary-color);
+  }
 }
 
 @media screen and (min-width: 975px) {
@@ -378,20 +405,6 @@ footer {
     font-size: 5rem;
     max-width: 800px;
     margin-top: 250px;
-  }
-  /* Services Styles */
-
-  section {
-    height: 100vh;
-  }
-
-  .services {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 700px;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
   }
 
   /* Nav Bar Styles */
