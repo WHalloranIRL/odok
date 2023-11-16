@@ -75,7 +75,7 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 - Hero will contact a large image with a text overly giving a short description of the gastropub
 
-### Who We Are Section
+### About Us Section
 
 - Color block with text to explain a little about the place, history.
 
@@ -112,19 +112,20 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ## Testing
 
+Testing was completed on multiple devices for resposiveness. All links and possible click throughs were also tested.
+
 ## Bugs
 
-- Form not sending correctly - Open
-
-- Contact Us and Find Us not linking correctly - Resolved
-- Overflow of nav grid on mobile - Resolved
-- Images not displaying when deployed - Resolved
+- Form not sending correctly - Resolved by changing to method to GET
+- Contact Us and Find Us not linking correctly - Resolved by updating the # reference
+- Overflow of nav grid on mobile - Resolved by using a flex control
+- Images not displaying when deployed - Resolved by removing the leading /
 
 ## Deployment
 
 Once code has been completed, it is pushed to Github for deployment using the pages feature. The site is now accessible via:
 
-- Link here
+- [ODOK](https://whalloranirl.github.io/odok/index.html)
 
 ## Contributions
 
