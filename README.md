@@ -53,6 +53,8 @@ In order to get a nice feel and complementary fonts I used [Google Fonts](https:
 
 Using the current color set of the bar, I chose a color pallete using [Coolors.co](https://coolors.co/)
 
+![Coolors Pallete](docs/Colour%20Pallete.png)
+
 ### Icons
 
 ### Structure
@@ -63,7 +65,7 @@ Based on current user experiences, I am choosing to go with a Mobile first appro
 
 Using Figma I have created initially the mobile first look and feel then scaled based on larger screen requirements
 
-![Wireframe Image](/wireframe/Project%201.png)
+![Wireframe Image](docs/wireframe/Project%201.png)
 
 ## Features
 
