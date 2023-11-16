@@ -299,11 +299,29 @@ footer {
   color: var(--accent-secondary-color);
 }
 
-/* iFram for Maps Styles */
+/* iFrame for Maps Styles */
 
 .iframe-container {
   align-content: center;
   max-width: 100%;
+}
+
+#thank-you-container {
+  background-color: var(--primary-color);
+  height: 100vh;
+}
+
+.thank-you {
+  text-align: center;
+  width: 60%;
+  padding-top: 15%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.redirect {
+  font-size: 0.8em;
+  color: var(--accent-primary-color);
 }
 
 /* Media Queries */
