@@ -59,7 +59,7 @@ Using the current color set of the bar, I chose a color pallete using [Coolors.c
 
 Using [Font Awesome](https://fontawesome.com) I seleceted the social media icons and embedded them into the footer element
 
-- ![Font Awesome Icons](docs/Screenshot%202023-11-20%202.06.47%20PM.webp)
+- ![Font Awesome Icons](docs/socialicons.webp)
 
 ### Structure
 
@@ -118,10 +118,10 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ## Validation
 
-- HTML validation completed, errors relating to the goolemaps intergration code.
-- ![CSS Validation](docs/Screenshot%202023-11-20%201.55.45%20PM.webp)
+- HTML validation showed 0 errors
+- ![CSS Validation](docs/html-validation.webp)
 - CSS validation showed 0 errors
-- ![HTML Validation](docs/Screenshot%202023-11-20%201.56.35%20PM.webp)
+- ![HTML Validation](docs/css-validation.webp)
 
 ## Testing
 
