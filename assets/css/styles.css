@@ -1,7 +1,7 @@
 /* Fonts Imported from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* Variables to make changes easier */
+/* Variables to make color changes easier */
 :root {
   --primary-color: #18280d;
   --secondary-color: #7c3626;
@@ -17,6 +17,8 @@
   box-sizing: border-box;
 }
 
+/* Adding a smooth scroller effect */
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 120px;
@@ -26,6 +28,8 @@ li {
   list-style-type: none;
   font-size: 1.2rem;
 }
+
+/* Setting the hover effect styles */
 
 #menu li:hover {
   background-color: var(--accent-primary-color);
@@ -118,6 +122,7 @@ nav {
   top: 100%;
 }
 
+/* Setting the collapsable nav section */
 #nav-toggle:checked ~ nav {
   display: block;
 }
@@ -250,7 +255,6 @@ nav {
   background: var(--primary-color);
   color: var(--accent-secondary-color);
   padding: 20px;
-  /* border: 2px solid hotpink; */
   overflow-wrap: break-word;
 
   display: flex;
@@ -260,7 +264,6 @@ nav {
 }
 
 .contact-form {
-  /* border: 2px solid hotpink; */
   padding: 5px;
   width: 100%;
 }
@@ -306,6 +309,8 @@ footer {
   max-width: 100%;
 }
 
+/* Styles for the thank you page  */
+
 #thank-you-container {
   background-color: var(--primary-color);
   height: 100vh;
@@ -324,7 +329,7 @@ footer {
   color: var(--accent-primary-color);
 }
 
-/* Media Queries */
+/* Media Query for screens above 768px*/
 
 @media screen and (min-width: 768px) {
   .hero .leading-text {
@@ -445,8 +450,12 @@ footer {
   }
 }
 
+/* Media Query for screens above 975px*/
+
 @media screen and (min-width: 975px) {
 }
+
+/* Media Query for screens above 1200px*/
 
 @media screen and (min-width: 1200px) {
   .hero .leading-text {
