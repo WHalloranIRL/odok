@@ -335,6 +335,26 @@ footer {
   color: var(--accent-primary-color);
 }
 
+/* Styles for the custom 404 page  */
+
+#four04-container {
+  background-color: var(--primary-color);
+  height: 100vh;
+}
+
+.four04 {
+  text-align: center;
+  width: 60%;
+  padding-top: 15%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.redirect {
+  font-size: 0.8em;
+  color: var(--accent-primary-color);
+}
+
 /* Media Query for screens above 768px*/
 
 @media screen and (min-width: 768px) {
