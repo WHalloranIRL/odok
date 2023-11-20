@@ -117,9 +117,9 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 ## Validation
 
 - HTML validation completed, errors relating to the goolemaps intergration code.
-- ![HTML Validation](docs/Screenshot%202023-11-20%201.56.35%20PM.webp)
-- CSS validation showed 0 errors
 - ![CSS Validation](docs/Screenshot%202023-11-20%201.55.45%20PM.webp)
+- CSS validation showed 0 errors
+- ![HTML Validation](docs/Screenshot%202023-11-20%201.56.35%20PM.webp)
 
 ## Testing
 
