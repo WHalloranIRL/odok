@@ -59,6 +59,8 @@ Using the current color set of the bar, I chose a color pallete using [Coolors.c
 
 Using [Font Awesome](https://fontawesome.com) I seleceted the social media icons and embedded them into the footer element
 
+- ![Font Awesome Icons](docs/Screenshot%202023-11-20%202.06.47%20PM.webp)
+
 ### Structure
 
 Based on current user experiences, I am choosing to go with a Mobile first approach. Using a single scrollable page with snap scrolling. I will modeling on iPhone 15 & Glaxay S20. I will be using breakpoints to make the page responsive for larger screens.
