@@ -53,12 +53,12 @@ In order to get a nice feel and complementary fonts I used [Google Fonts](https:
 
 Using the current color set of the bar, I chose a color pallete using [Coolors.co](https://coolors.co/)
 
-![Coolors Pallete](docs/Colour%20Pallete.png)
+![Coolors Pallete](docs/Colour%20Pallete.webp)
 
 ### Icons
 
 Using [Font Awesome](https://fontawesome.com) I seleceted the social media icons and embedded them into the footer element
- 
+
 ### Structure
 
 Based on current user experiences, I am choosing to go with a Mobile first approach. Using a single scrollable page with snap scrolling. I will modeling on iPhone 15 & Glaxay S20. I will be using breakpoints to make the page responsive for larger screens.
@@ -114,18 +114,24 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 - CSS Validator
 - Unsplash
 
+## Validation
+
+- HTML validation completed, errors relating to the goolemaps intergration code.
+- ![HTML Validation](docs/Screenshot%202023-11-20%201.56.35%20PM.webp)
+- CSS validation showed 0 errors
+- ![CSS Validation](docs/Screenshot%202023-11-20%201.55.45%20PM.webp)
+
 ## Testing
 
 Testing was completed on multiple devices for resposiveness. All links and possible click throughs were also tested.
 
-| Feature                | Description                                      | Steps                                           | Outcome                                         |
-|------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
-| Homepage Content       | Displays relevant information on the homepage.   | N/A                                              | Homepage shows latest content and updates.|
-| Contact Form           | Includes a contact form for user inquiries.      | 1. Fill out the contact form.                    | Submission successful, user gets a Thank You page and redirect.|
-| Responsive Design      | Ensures the website works well on all devices.   | N/A                                              | Website layout adjusts to different screen sizes.|
-| Navigation Menu        | Provides easy navigation through the site.       | 1. Click on various menu items.                 | Smooth navigation, correct pages are loaded.    |
-| Social Media Integration| Connects the website with social media platforms.| 1. Share a page on social media.                 | Page is shared with the correct link and image.  |
-
+| Feature | Description | Steps | Outcome |
+| --- | --- | --- | --- |
+| Homepage Content | Displays relevant information on the homepage. | N/A | Homepage shows latest content and updates. |
+| Contact Form | Includes a contact form for user inquiries. | 1. Fill out the contact form. | Submission successful, user gets a Thank You page and redirect. |
+| Responsive Design | Ensures the website works well on all devices. | N/A | Website layout adjusts to different screen sizes. |
+| Navigation Menu | Provides easy navigation through the site. | 1. Click on various menu items. | Smooth navigation, correct pages are loaded. |
+| Social Media Integration | Connects the website with social media platforms. | 1. Share a page on social media. | Page is shared with the correct link and image. |
 
 ## Bugs
 
