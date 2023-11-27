@@ -4,8 +4,6 @@
 
 ### Project Description
 
-#### This project will showcase the location, menus, contact info, services for the gastropub
-
 This site is aimed at giving you information about the gastropub O'Donnachas of Kilmeaden. Showcasing the food and drinks available, they great coutry pub atmosphere, friendly staff and warm welcome. It will dispaly location and contact information.
 
 ### Table of Contents
@@ -77,13 +75,15 @@ This site is aimed at giving you information about the gastropub O'Donnachas of 
 
 ### Font
 
-In order to get a nice feel and complementary fonts I used [Google Fonts](https://fonts.google.com/) in order to select the best fonts I felt for the page. Using [Google Fonts](https://fonts.google.com/) I added the following fonts - Poppins
+In order to get a nice feel and complementary fonts I used Poppins from [Google Fonts](https://fonts.google.com/) in order to select the best fonts I felt for the page. Using [Google Fonts](https://fonts.google.com/).
 
 ### Colors
 
 Using the current color set of the bar, I chose a color pallete using [Coolors.co](https://coolors.co/)
 
 ![Coolors Pallete](docs/Colour%20Pallete.webp)
+
+Add hashtags
 
 ### Icons
 
@@ -135,7 +135,8 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ### Language
 
-- HTML/CSS
+- HTML
+- CSS
 
 ### Tools
 
@@ -145,6 +146,11 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 - HTML Validator
 - CSS Validator
 - Unsplash
+
+### Frameworks & Libraries
+
+- Google Fonts
+- Fontawesome
 
 ## Validation
 
@@ -167,6 +173,8 @@ Testing was completed on multiple devices for resposiveness. All links and possi
 
 ## Bugs
 
+Strikethrough this can add bug list as tests 
+
 - Form not sending correctly - Resolved by changing to method to GET
 - Contact Us and Find Us not linking correctly - Resolved by updating the # reference
 - Overflow of nav grid on mobile - Resolved by using a flex control
@@ -180,13 +188,20 @@ Once code has been completed, it is pushed to Github for deployment using the pa
 
 Steps needed to deploy
 
-- Navigate to the repository on github and click 'Settings'.
-- Then select 'Pages' on the side navigation.
-- Select the 'None' dropdown, and then click 'master'.
-- Click on the 'Save' button.
+- Navigate to the repository on github and click settings.
+- Then select ages on the side navigation.
+- Select the none dropdown, and then click **main**.
+- Click on the save button.
 - If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
-## Contributions
+````
+https://YOURGITHUBNAME.github.
+````
 
+
+
+
+
+## Thank You
 - Simen Daehlin
 - Mate Rizco
