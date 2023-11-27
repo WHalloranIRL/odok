@@ -75,31 +75,31 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ### Navigation
 
-- Nav bar will remain fixed to the top and responsive to screen size. It will contain the menu items to move around the sections and the bar logo
+- Nav bar will remain fixed to the top and responsive to screen size. It will contain the menu items to move around the sections and the bar logo ![Nav Bar](docs/navbar.webp)
 
 ### Hero Section
 
-- Hero will contact a large image with a text overly giving a short description of the gastropub
+- Hero will contact a large image with a text overly giving a short description of the gastropub ![Hero](docs/hero.webp)
 
 ### About Us Section
 
-- Color block with text to explain a little about the place, history.
+- Color block with text to explain a little about the place, history. ![About Us](docs/about.webp)
 
 ### Services Section
 
-- Services displayed on individual cards, allowing users to see quickly what is on offer
+- Services displayed on individual cards, allowing users to see quickly what is on offer ![Services](docs/services.webp)
 
 ### Contact Us Section
 
-- Full contact information provided plus an email us form
+- Full contact information provided plus an email us form ![Contact Us](docs/contact.webp)
 
 ### Location Section
 
-- Embedded good maps location plus address details
+- Embedded good maps location plus address details ![Location](docs/location.webp)
 
 ### Footer
 
-- Social media links and copywright information
+- Social media links and copywright information ![Footer](docs/socialicons.webp)
 
 ## Technologies
 
