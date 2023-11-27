@@ -412,6 +412,13 @@ textarea {
     align-items: center;
     gap: 2rem;
     height: 60vh;
+    font-size: 1.5rem;
+  }
+
+  .text-input,
+  .input,
+  textarea {
+    font-size: 1.5rem;
   }
 
   .contact-info {
@@ -422,6 +429,7 @@ textarea {
   .contact-form {
     max-width: 40%;
     align-self: flex-start;
+    font-size: 1.5rem;
   }
 
   /* Service Section Styles */
@@ -458,7 +466,7 @@ textarea {
   .about-text {
     max-width: 60%;
     padding: 2.5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     align-self: flex-start;
   }
   .about-img-container {

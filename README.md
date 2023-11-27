@@ -81,7 +81,7 @@ In order to get a nice feel and complementary fonts I used Poppins from [Google 
 
 Using the current color set of the bar, I chose a color pallete using [Coolors.co](https://coolors.co/)
 
-![Coolors Pallete](docs/Colour%20Pallete.webp)
+![Coolors Pallete](docs/colour-pallete.webp)
 
 - Primary color - #18280D
 - Secondary color - #7c3626
@@ -92,7 +92,7 @@ Using the current color set of the bar, I chose a color pallete using [Coolors.c
 
 Using [Font Awesome](https://fontawesome.com) I seleceted the social media icons and embedded them into the footer element
 
-- ![Font Awesome Icons](docs/socialicons.webp)
+- ![Font Awesome Icons](docs/social-icons.webp)
 
 ### Structure
 
@@ -102,7 +102,7 @@ Based on current user experiences, I am choosing to go with a Mobile first appro
 
 Using Figma I have created initially the mobile first look and feel then scaled based on larger screen requirements
 
-![Wireframe Image](docs/wireframe/Project%201.png)
+![Wireframe Image](docs/wireframe/project-1.png)
 
 ## Features
 
@@ -132,7 +132,7 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ### Footer
 
-- Social media links and copywright information ![Footer](docs/socialicons.webp)
+- Social media links and copywright information ![Footer](docs/social-icons.webp)
 
 ## Technologies
 
