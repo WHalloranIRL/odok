@@ -83,7 +83,10 @@ Using the current color set of the bar, I chose a color pallete using [Coolors.c
 
 ![Coolors Pallete](docs/Colour%20Pallete.webp)
 
-Add hashtags
+- Primary color - #18280D
+- Secondary color - #7c3626
+- Accent primary color - #f5853f
+- Secondary accent color - #f7f3e3
 
 ### Icons
 
@@ -149,8 +152,8 @@ Using Figma I have created initially the mobile first look and feel then scaled 
 
 ### Frameworks & Libraries
 
-- Google Fonts
-- Fontawesome
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com)
 
 ## Validation
 
@@ -173,12 +176,12 @@ Testing was completed on multiple devices for resposiveness. All links and possi
 
 ## Bugs
 
-Strikethrough this can add bug list as tests 
-
-- Form not sending correctly - Resolved by changing to method to GET
-- Contact Us and Find Us not linking correctly - Resolved by updating the # reference
-- Overflow of nav grid on mobile - Resolved by using a flex control
-- Images not displaying when deployed - Resolved by removing the leading /
+| Bug | Status | Description | Steps To Resolve |
+| --- | --- | --- | --- |
+| Form not sending correctly | ~~Resolved~~ | When submitting the contact us form no action was being performed | Added the GET method to the |
+| Contact & Find Us not linking | ~~Resolved~~ | When clicking contact us or find us on menu, nothing happeing | Added the # reference to the link to resolve |
+| Navigation overflowing on mobile | ~~Resolved~~ | When accessing the nav mar on mobile it was overflowing to the next container | Added a flex display and property value to resolve |
+| Images not displayed | ~~Resolved~~ | When deployed images were not loading correctly | Removed the leading / to resolve |
 
 ## Deployment
 
@@ -188,20 +191,17 @@ Once code has been completed, it is pushed to Github for deployment using the pa
 
 Steps needed to deploy
 
-- Navigate to the repository on github and click settings.
-- Then select ages on the side navigation.
+- Navigate to the repository on github and click **settings**.
+- Then select **pages** on the side navigation.
 - Select the none dropdown, and then click **main**.
-- Click on the save button.
+- Click on the **save** button.
 - If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
-````
-https://YOURGITHUBNAME.github.
-````
-
-
-
-
+```
+https://YOURGITHUBNAME.github.io/odok
+```
 
 ## Thank You
+
 - Simen Daehlin
 - Mate Rizco
