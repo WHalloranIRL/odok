@@ -9,32 +9,29 @@
 This site is aimed at giving you information about the gastropub O'Donnachas of Kilmeaden. Showcasing the food and drinks available, they great coutry pub atmosphere, friendly staff and warm welcome. It will dispaly location and contact information.
 
 ### Table of Contents
-- [O'Donnachas Gastropub](#o-donnachas-gastropub)
-  * [Project Description](#project-description)
-    + [This project will showcase the location, menus, contact info, services for the gastropub](#this-project-will-showcase-the-location--menus--contact-info--services-for-the-gastropub)
-  * [Table of Contents](#table-of-contents)
+
 - [Roadmap](#roadmap)
 - [UX](#ux)
-  * [User Goal](#user-goal)
-  * [User Story](#user-story)
-  * [Owner Goals](#owner-goals)
+  - [User Goal](#user-goal)
+  - [User Story](#user-story)
+  - [Owner Goals](#owner-goals)
 - [Design](#design)
-  * [Font](#font)
-  * [Colors](#colors)
-  * [Icons](#icons)
-  * [Structure](#structure)
+  - [Font](#font)
+  - [Colors](#colors)
+  - [Icons](#icons)
+  - [Structure](#structure)
 - [Wireframes](#wireframes)
 - [Features](#features)
-  * [Navigation](#navigation)
-  * [Hero Section](#hero-section)
-  * [About Us Section](#about-us-section)
-  * [Services Section](#services-section)
-  * [Contact Us Section](#contact-us-section)
-  * [Location Section](#location-section)
-  * [Footer](#footer)
+  - [Navigation](#navigation)
+  - [Hero Section](#hero-section)
+  - [About Us Section](#about-us-section)
+  - [Services Section](#services-section)
+  - [Contact Us Section](#contact-us-section)
+  - [Location Section](#location-section)
+  - [Footer](#footer)
 - [Technologies](#technologies)
-  * [Language](#language)
-  * [Tools](#tools)
+  - [Language](#language)
+  - [Tools](#tools)
 - [Validation](#validation)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -42,8 +39,6 @@ This site is aimed at giving you information about the gastropub O'Donnachas of 
 - [Contributions](#contributions)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 
 ## Roadmap
 
