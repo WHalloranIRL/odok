@@ -178,6 +178,14 @@ Once code has been completed, it is pushed to Github for deployment using the pa
 
 - [ODOK](https://whalloranirl.github.io/odok/index.html)
 
+Steps needed to deploy
+
+- Navigate to the repository on github and click 'Settings'.
+- Then select 'Pages' on the side navigation.
+- Select the 'None' dropdown, and then click 'master'.
+- Click on the 'Save' button.
+- If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
 ## Contributions
 
 - Simen Daehlin
