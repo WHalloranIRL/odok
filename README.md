@@ -203,5 +203,5 @@ https://YOURGITHUBNAME.github.io/odok
 
 ## Thank You
 
-- Simen Daehlin
-- Mate Rizco
+- [Simen Daehlin](https://github.com/Eventyret)
+- Maté Rácz
